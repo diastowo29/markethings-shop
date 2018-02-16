@@ -45,7 +45,7 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    Markethings
                 </a>
             </div>
 
@@ -59,43 +59,37 @@
                 <li>
                     <a href="user.php">
                         <i class="ti-user"></i>
-                        <p>User Profile</p>
+                        <p>Company Profile</p>
                     </a>
                 </li>
                 <li>
                     <a href="table.php">
                         <i class="ti-view-list-alt"></i>
-                        <p>Table List</p>
+                        <p>New Project</p>
                     </a>
                 </li>
                 <li>
                     <a href="typography.php">
                         <i class="ti-text"></i>
-                        <p>Typography</p>
+                        <p>Project</p>
                     </a>
                 </li>
                 <li>
                     <a href="icons.php">
                         <i class="ti-pencil-alt2"></i>
-                        <p>Icons</p>
+                        <p>PO Confirmation</p>
                     </a>
                 </li>
                 <li>
                     <a href="maps.php">
                         <i class="ti-map"></i>
-                        <p>Maps</p>
+                        <p>Complain</p>
                     </a>
                 </li>
                 <li>
                     <a href="notifications.php">
                         <i class="ti-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.php">
-                        <i class="ti-export"></i>
-                        <p>Upgrade to PRO</p>
+                        <p>Help Desk</p>
                     </a>
                 </li>
             </ul>

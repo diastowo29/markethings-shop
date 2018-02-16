@@ -49,7 +49,7 @@
 
             <ul class="nav">
                 <li class="active">
-                    <a href="dashboard.php">
+                    <a href="index.php">
                         <i class="ti-pie-chart"></i>
                         <p>Dashboard</p>
                     </a>
