@@ -104,7 +104,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Typography</a>
+                    <a class="navbar-brand" href="#">Project</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -148,8 +148,8 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Striped Table</h4>
-                                <p class="category">Here is a subtitle for this table</p>
+                                <h4 class="title">Project List</h4>
+                                <p class="category">All active projects</p>
                             </div>
                             <div class="content table-responsive table-full-width">
                                 <table class="table table-striped">
@@ -159,6 +159,7 @@
                                         <th>Salary</th>
                                         <th>Country</th>
                                         <th>City</th>
+                                        <th>Details</th>
                                     </thead>
                                     <tbody>
                                         <tr>
@@ -167,6 +168,7 @@
                                             <td>$36,738</td>
                                             <td>Niger</td>
                                             <td>Oud-Turnhout</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
@@ -174,6 +176,7 @@
                                             <td>$23,789</td>
                                             <td>Curaçao</td>
                                             <td>Sinaai-Waas</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
@@ -181,6 +184,7 @@
                                             <td>$56,142</td>
                                             <td>Netherlands</td>
                                             <td>Baileux</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
@@ -188,6 +192,7 @@
                                             <td>$38,735</td>
                                             <td>Korea, South</td>
                                             <td>Overland Park</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                         <tr>
                                             <td>5</td>
@@ -195,6 +200,7 @@
                                             <td>$63,542</td>
                                             <td>Malawi</td>
                                             <td>Feldkirchen in Kärnten</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                         <tr>
                                             <td>6</td>
@@ -202,6 +208,7 @@
                                             <td>$78,615</td>
                                             <td>Chile</td>
                                             <td>Gloucester</td>
+                                            <td><button type="button" class="btn btn-info">Info</button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -214,8 +221,8 @@
                     <div class="col-md-12">
                         <div class="card card-plain">
                             <div class="header">
-                                <h4 class="title">Table on Plain Background</h4>
-                                <p class="category">Here is a subtitle for this table</p>
+                                <h4 class="title">Last Project</h4>
+                                <p class="category">All finished projects</p>
                             </div>
                             <div class="content table-responsive table-full-width">
                                 <table class="table table-hover">

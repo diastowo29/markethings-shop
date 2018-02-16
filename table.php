@@ -147,7 +147,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">New Project</h4>
+                                <h4 class="title">Project Details</h4>
                             </div>
                             <div class="content">
                                 <form>
