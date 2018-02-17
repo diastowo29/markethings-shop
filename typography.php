@@ -156,59 +156,144 @@
                                     <thead>
                                         <th>ID</th>
                                         <th>Name</th>
-                                        <th>Salary</th>
-                                        <th>Country</th>
+                                        <th>Period Left</th>
+                                        <th>PIC</th>
                                         <th>City</th>
-                                        <th>Details</th>
+                                        <th>Cancel</th>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
                                             <td>Dakota Rice</td>
-                                            <td>$36,738</td>
-                                            <td>Niger</td>
-                                            <td>Oud-Turnhout</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>5</td>
+                                            <td>Diastowo</td>
+                                            <td>Bogor</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" align="center" class="well">No Quotations..</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
                                             <td>Minerva Hooper</td>
-                                            <td>$23,789</td>
-                                            <td>Curaçao</td>
-                                            <td>Sinaai-Waas</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>7</td>
+                                            <td>Nandityo</td>
+                                            <td>Jakarta</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" class="well">
+                                                <div class="col-lg-3 col-sm-6">
+                                                    <div class="card">
+                                                        <div class="content">
+                                                            <div class="row">
+                                                                <!-- <div class="col-xs-12"> -->
+                                                                    <!-- <div>PT. Sejahtera</div> -->
+                                                                <!-- </div> -->
+                                                                <div class="col-xs-5">
+                                                                    <div class="icon-big icon-warning text-center" align="center">
+                                                                        <i class="ti-server"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-7">
+                                                                    <div class="numbers">
+                                                                        <p>PT. Sejahtera</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer">
+                                                                <hr />
+                                                                <div class="stats" style="width: 100%;">
+                                                                    <button type="submit" class="btn btn-info btn-fill" style="width: 100%;">Download</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6">
+                                                    <div class="card">
+                                                        <div class="content">
+                                                            <div class="row">
+                                                                <!-- <div class="col-xs-12"> -->
+                                                                    <!-- <div>PT. Sejahtera</div> -->
+                                                                <!-- </div> -->
+                                                                <div class="col-xs-5">
+                                                                    <div class="icon-big icon-warning text-center" align="center">
+                                                                        <i class="ti-server"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-7">
+                                                                    <div class="numbers">
+                                                                        <p>PT. Makmur</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer">
+                                                                <hr />
+                                                                <div class="stats" style="width: 100%;">
+                                                                    <button type="submit" class="btn btn-info btn-fill" style="width: 100%;">Download</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
                                             <td>Sage Rodriguez</td>
-                                            <td>$56,142</td>
-                                            <td>Netherlands</td>
-                                            <td>Baileux</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>2</td>
+                                            <td>Pico</td>
+                                            <td>Depok</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" align="center" class="well">No Quotations..</td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
                                             <td>Philip Chaney</td>
-                                            <td>$38,735</td>
-                                            <td>Korea, South</td>
-                                            <td>Overland Park</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>8</td>
+                                            <td>Reiza</td>
+                                            <td>Bekasi</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" align="center" class="well">No Quotations..</td>
                                         </tr>
                                         <tr>
                                             <td>5</td>
                                             <td>Doris Greene</td>
-                                            <td>$63,542</td>
-                                            <td>Malawi</td>
-                                            <td>Feldkirchen in Kärnten</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>12</td>
+                                            <td>Alvin</td>
+                                            <td>Cibubur</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" align="center" class="well">No Quotations..</td>
                                         </tr>
                                         <tr>
                                             <td>6</td>
                                             <td>Mason Porter</td>
-                                            <td>$78,615</td>
-                                            <td>Chile</td>
-                                            <td>Gloucester</td>
-                                            <td><button type="button" class="btn btn-info">Info</button></td>
+                                            <td>3</td>
+                                            <td>Diastowo</td>
+                                            <td>Bogor</td>
+                                            <td>
+                                                <button type="button" class="btn btn-danger">Cancel</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" align="center" class="well">No Quotations..</td>
                                         </tr>
                                     </tbody>
                                 </table>
