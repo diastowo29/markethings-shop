@@ -55,37 +55,37 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user.php">
+                    <a href="compro.php">
                         <i class="ti-user"></i>
                         <p>Company Profile</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.php">
+                    <a href="newproject.php">
                         <i class="ti-view-list-alt"></i>
                         <p>New Project</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.php">
+                    <a href="project.php">
                         <i class="ti-text"></i>
                         <p>Project</p>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="icons.php">
+                    <a href="poconfirmation.php">
                         <i class="ti-pencil-alt2"></i>
                         <p>PO Confirmation</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.php">
+                    <a href="complain.php">
                         <i class="ti-map"></i>
                         <p>Complain</p>
                     </a>
                 </li>
                 <li>
-                    <a href="notifications.php">
+                    <a href="helpdesk.php">
                         <i class="ti-bell"></i>
                         <p>Help Desk</p>
                     </a>

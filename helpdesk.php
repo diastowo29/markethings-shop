@@ -24,7 +24,7 @@
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
 
-    <!--  Fonts and icons     -->
+    <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
     <link href="assets/css/themify-icons.css" rel="stylesheet">
@@ -55,37 +55,37 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user.php">
+                    <a href="compro.php">
                         <i class="ti-user"></i>
                         <p>Company Profile</p>
                     </a>
                 </li>
-                <li class="active">
-                    <a href="table.php">
+                <li>
+                    <a href="newproject.php">
                         <i class="ti-view-list-alt"></i>
                         <p>New Project</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.php">
+                    <a href="project.php">
                         <i class="ti-text"></i>
                         <p>Project</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.php">
+                    <a href="poconfirmation.php">
                         <i class="ti-pencil-alt2"></i>
                         <p>PO Confirmation</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.php">
+                    <a href="complain.php">
                         <i class="ti-map"></i>
                         <p>Complain</p>
                     </a>
                 </li>
-                <li>
-                    <a href="notifications.php">
+                <li class="active">
+                    <a href="helpdesk.php">
                         <i class="ti-bell"></i>
                         <p>Help Desk</p>
                     </a>
@@ -104,7 +104,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">New Project</a>
+                    <a class="navbar-brand" href="#">Notifications</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -141,103 +141,95 @@
             </div>
         </nav>
 
+
         <div class="content">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">Project Details</h4>
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Notifications</h4>
+                        <p class="category">Handcrafted by our friend <a target="_blank" href="https://github.com/mouse0270">Robert McIntosh</a>. Please checkout the <a href="http://bootstrap-notify.remabledesigns.com/" target="_blank">full documentation.</a></p>
+
+                    </div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Notifications Style</h5>
+                                <div class="alert alert-info">
+                                    <span>This is a plain notification</span>
+                                </div>
+                                <div class="alert alert-info">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span>This is a notification with close button.</span>
+                                </div>
+                                <div class="alert alert-info alert-with-icon" data-notify="container">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span data-notify="icon" class="ti-bell"></span>
+                                    <span data-notify="message">This is a notification with close button and icon.</span>
+                                </div>
+                                <div class="alert alert-info alert-with-icon" data-notify="container">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span data-notify="icon" class="ti-pie-chart"></span>
+                                    <span data-notify="message">This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.</span>
+                                </div>
                             </div>
-                            <div class="content">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="form-group">
-                                                <label>Company</label>
-                                                <input type="text" class="form-control border-input" disabled placeholder="Company" value="Markethings Co. Ltd">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Title</label>
-                                                <input type="text" class="form-control border-input" placeholder="Username" value="Kursi">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Quantity</label>
-                                                <input type="email" class="form-control border-input" placeholder="Email" value="100">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Project Period</label>
-                                                <input type="text" class="form-control border-input" placeholder="First Name" value="10">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>PIC</label>
-                                                <input type="text" class="form-control border-input" placeholder="Last Name" value="Diastowo">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label>Email</label>
-                                                <input type="text" class="form-control border-input" placeholder="Home Address" value="diastowo@gmail.com">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label>City</label>
-                                                <input type="text" class="form-control border-input" placeholder="City" value="Bogor">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label>Phone Number</label>
-                                                <input type="text" class="form-control border-input" placeholder="Country" value="081294059775">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label>Supplier Code</label>
-                                                <input type="number" class="form-control border-input" placeholder="16320">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label>Description</label>
-                                                <textarea rows="5" class="form-control border-input" placeholder="Here can be your description">Dibutuhkan segera, kursi keren mantep racing 100 buat berbahan dari benang</textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-center">
-                                        <button type="submit" class="btn btn-info btn-fill btn-wd">Submit Project</button>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </form>
+                            <div class="col-md-6">
+                                <h5>Notification states</h5>
+                                <div class="alert alert-info">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span><b> Info - </b> This is a regular notification made with ".alert-info"</span>
+                                </div>
+                                <div class="alert alert-success">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span><b> Success - </b> This is a regular notification made with ".alert-success"</span>
+                                </div>
+                                <div class="alert alert-warning">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span><b> Warning - </b> This is a regular notification made with ".alert-warning"</span>
+                                </div>
+                                <div class="alert alert-danger">
+                                    <button type="button" aria-hidden="true" class="close">×</button>
+                                    <span><b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="places-buttons">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h5>Notifications Places
+                                        <p class="category">Click to view notifications</p>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('top','left')">Top Left</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('top','center')">Top Center</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('top','right')">Top Right</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('bottom','left')">Bottom Left</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('bottom','center')">Bottom Center</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-default btn-block" onclick="demo.showNotification('bottom','right')">Bottom Right</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
+
 
         <footer class="footer">
             <div class="container-fluid">
@@ -267,7 +259,6 @@
             </div>
         </footer>
 
-
     </div>
 </div>
 
@@ -295,6 +286,5 @@
 
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
 
 </html>

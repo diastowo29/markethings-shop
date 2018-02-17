@@ -21,10 +21,8 @@
     <!--  Paper Dashboard core CSS    -->
     <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
 
-
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
-
 
     <!--  Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -35,7 +33,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-background-color="white" data-active-color="danger">
+	<div class="sidebar" data-background-color="white" data-active-color="danger">
 
     <!--
 		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
@@ -45,65 +43,59 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    Markethings
                 </a>
             </div>
 
             <ul class="nav">
                 <li>
-                    <a href="dashboard.php">
+                    <a href="index.php">
                         <i class="ti-panel"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
                 <li>
-                    <a href="user.php">
+                    <a href="compro.php">
                         <i class="ti-user"></i>
-                        <p>User Profile</p>
+                        <p>Company Profile</p>
                     </a>
                 </li>
-                <li>
-                    <a href="table.php">
+                <li class="active">
+                    <a href="newproject.php">
                         <i class="ti-view-list-alt"></i>
-                        <p>Table List</p>
+                        <p>New Project</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.php">
+                    <a href="project.php">
                         <i class="ti-text"></i>
-                        <p>Typography</p>
+                        <p>Project</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.php">
+                    <a href="poconfirmation.php">
                         <i class="ti-pencil-alt2"></i>
-                        <p>Icons</p>
+                        <p>PO Confirmation</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.php">
+                    <a href="complain.php">
                         <i class="ti-map"></i>
-                        <p>Maps</p>
+                        <p>Complain</p>
                     </a>
                 </li>
                 <li>
-                    <a href="notifications.php">
+                    <a href="helpdesk.php">
                         <i class="ti-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
-				<li class="active active-pro">
-                    <a href="upgrade.php">
-                        <i class="ti-export"></i>
-                        <p>Upgrade to PRO</p>
+                        <p>Help Desk</p>
                     </a>
                 </li>
             </ul>
-    	</div>
+        </div>
     </div>
 
     <div class="main-panel">
-        <nav class="navbar navbar-default">
+		<nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle">
@@ -112,7 +104,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Dashboard</a>
+                    <a class="navbar-brand" href="#">New Project</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -152,79 +144,100 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-					<div class="col-md-8 col-md-offset-2">
+                    <div class="col-lg-12 col-md-12">
                         <div class="card">
-                            <div class="header text-center">
-                                <h3 class="title">Paper Dashboard</h3>
-                                <p class="category">Are you looking for more components? Please check our Premium Version of Paper Dashboard Pro.</p>
-								<br>
+                            <div class="header">
+                                <h4 class="title">Project Details</h4>
                             </div>
-                            <div class="content table-responsive table-full-width table-upgrade">
-                                <table class="table">
-                                    <thead>
-                                        <th></th>
-                                    	<th class="text-center">Free</th>
-                                    	<th class="text-center">PRO</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                        	<td>Components</td>
-                                        	<td>16</td>
-                                        	<td>160</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>Plugins</td>
-                                        	<td>4</td>
-                                        	<td>15</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>Example Pages</td>
-                                        	<td>4</td>
-                                        	<td>25</td>
-                                        </tr>
-                                        <tr>
-                                        	<td>Documentation</td>
-                                        	<td><i class="fa fa-times text-danger"></i></td>
-                                        	<td><i class="fa fa-check text-success"></td>
-                                        </tr>
-                                        <tr>
-                                        	<td>SASS Files</td>
-											<td><i class="fa fa-check text-success"></i></td>
-                                        	<td><i class="fa fa-check text-success"></td>
-                                        </tr>
-                                        <tr>
-                                        	<td>Login/Register/Lock Pages</td>
-											<td><i class="fa fa-times text-danger"></i></td>
-                                        	<td><i class="fa fa-check text-success"></td>
-                                        </tr>
-										<tr>
-                                        	<td>Premium Support</td>
-											<td><i class="fa fa-times text-danger"></i></td>
-                                        	<td><i class="fa fa-check text-success"></td>
-                                        </tr>
-										<tr>
-                                        	<td></td>
-											<td>Free</td>
-                                        	<td>Just $39</td>
-                                        </tr>
-										<tr>
-											<td></td>
-											<td>
-												<a href="#" class="btn btn-round btn-fill btn-default disabled">Current Version</a>
-											</td>
-											<td>
-												<a target="_blank" href="http://www.creative-tim.com/product/paper-dashboard-pro/?ref=pdfree-upgrade-archive" class="btn btn-round btn-fill btn-info">Upgrade to PRO</a>
-											</td>
-										</tr>
-                                    </tbody>
-                                </table>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label>Company</label>
+                                                <input type="text" class="form-control border-input" disabled placeholder="Company" value="Markethings Co. Ltd">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Title</label>
+                                                <input type="text" class="form-control border-input" placeholder="Username" value="Kursi">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Quantity</label>
+                                                <input type="email" class="form-control border-input" placeholder="Email" value="100">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Project Period</label>
+                                                <input type="text" class="form-control border-input" placeholder="First Name" value="10">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>PIC</label>
+                                                <input type="text" class="form-control border-input" placeholder="Last Name" value="Diastowo">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input type="text" class="form-control border-input" placeholder="Home Address" value="diastowo@gmail.com">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>City</label>
+                                                <input type="text" class="form-control border-input" placeholder="City" value="Bogor">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Phone Number</label>
+                                                <input type="text" class="form-control border-input" placeholder="Country" value="081294059775">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Supplier Code</label>
+                                                <input type="number" class="form-control border-input" placeholder="16320">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Description</label>
+                                                <textarea rows="5" class="form-control border-input" placeholder="Here can be your description">Dibutuhkan segera, kursi keren mantep racing 100 buat berbahan dari benang</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-info btn-fill btn-wd">Submit Project</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
-
 
         <footer class="footer">
             <div class="container-fluid">
@@ -248,11 +261,12 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="copyright pull-right">
+				<div class="copyright pull-right">
                     &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>
                 </div>
             </div>
         </footer>
+
 
     </div>
 </div>
@@ -281,4 +295,6 @@
 
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
+
+
 </html>
