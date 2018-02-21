@@ -104,7 +104,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Maps</a>
+                    <a class="navbar-brand" href="#">Complain</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -143,16 +143,49 @@
 
 		<div class="content">
             <div class="container-fluid">
-                <div class="card card-map">
-					<div class="header">
-                        <h4 class="title">Google Maps</h4>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Complain List</h4>
+                                <!-- <p class="category">Here is a subtitle for this table</p> -->
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Date</th>
+                                        <th>Request No</th>
+                                        <th>Title</th>
+                                        <th>Status</th>
+                                        <th>Action From Supplier</th>
+                                        <th>Confirm Complete</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>25 Feb 2017</td>
+                                            <td>7354y7sf</td>
+                                            <td>Defect</td>
+                                            <td>Approved</td>
+                                            <td>Retur</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>27 Feb 2017</td>
+                                            <td>787sdg2sf</td>
+                                            <td>Defect</td>
+                                            <td>Approved</td>
+                                            <td>Retur</td>
+                                            <td>-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
                     </div>
-					<div class="map">
-						<div id="map"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
 
 		<footer class="footer">
             <div class="container-fluid">
