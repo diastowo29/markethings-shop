@@ -188,7 +188,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="6" class="well">
-                                                <div class="col-lg-3 col-sm-6" style="cursor: pointer;">
+                                                <div class="col-lg-3 col-sm-6 col-xs-6" style="cursor: pointer;">
                                                     <div class="card">
                                                         <div class="content">
                                                             <div class="row" data-toggle="modal" data-target="#selectModal">
@@ -215,7 +215,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-sm-6" style="cursor: pointer;">
+                                                <div class="col-lg-3 col-sm-6 col-xs-6" style="cursor: pointer;">
                                                     <div class="card">
                                                         <div class="content">
                                                             <div class="row" data-toggle="modal" data-target="#selectModal">
