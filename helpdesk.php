@@ -54,12 +54,12 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="compro.php">
                         <i class="ti-user"></i>
                         <p>Company Profile</p>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="newproject.php">
                         <i class="ti-view-list-alt"></i>

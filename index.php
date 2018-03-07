@@ -56,12 +56,12 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="compro.php">
                         <i class="ti-user"></i>
                         <p>Company Profile</p>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="newproject.php">
                         <i class="ti-view-list-alt"></i>
@@ -131,11 +131,15 @@
                                 <li><a href="#">Another notification</a></li>
                               </ul>
                         </li>
-						<li>
-                            <a href="#">
+						<li class="setting">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="ti-settings"></i>
 								<p>Settings</p>
                             </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="compro.php">Profile</a></li>
+                                <li><a href="#">Logout</a></li>
+                              </ul>
                         </li>
                     </ul>
 
@@ -385,14 +389,14 @@
 
         	demo.initChartist();
 
-        	$.notify({
-            	icon: 'ti-gift',
-            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
+        	// $.notify({
+         //    	icon: 'ti-gift',
+         //    	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
 
-            },{
-                type: 'success',
-                timer: 4000
-            });
+         //    },{
+         //        type: 'success',
+         //        timer: 4000
+         //    });
 
     	});
 	</script>
