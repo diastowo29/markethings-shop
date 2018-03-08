@@ -54,7 +54,7 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="project-hist.php">
                         <i class="ti-user"></i>
                         <p>Project History</p>
@@ -72,7 +72,7 @@
                         <p>Project</p>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="poconfirmation.php">
                         <i class="ti-pencil-alt2"></i>
                         <p>PO Confirmation</p>
@@ -95,7 +95,7 @@
     </div>
 
     <div class="main-panel">
-
+        
         <?php include 'top-nav-bar.php';?>
 
         <div class="content">
@@ -105,7 +105,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Project List</h4>
+                                <h4 class="title">Project History</h4>
                                 <!-- <p class="category">All active projects</p> -->
                             </div>
                             <div class="content">
@@ -113,19 +113,22 @@
                                     <hr class="between" style="border: 3px solid #f4f3ef;">
                                     <div class="col-md-12" style="margin-bottom: 10px;">
                                         <div class="col-md-3">
-                                            <label><b>Project</b>: Papan Tulis</label>
+                                            <label><b>Project</b>: Kursi Guru</label>
                                         </div>
                                         <div class="col-md-9">
                                             <label class="col-md-12"><b>8udvxsdf8w9</b></label>
-                                            <label class="col-md-12"><b>Date</b>: 30 Apr 2017 | <b>Total</b>: 40 Item</label>
+                                            <label class="col-md-12"><b>Date</b>: 14 Feb 2017 | <b>Total</b>: 15 Item</label>
+                                            <label class="col-md-12 well">16 Feb 2017, 09.50 <b>PO Confirmed</b>
+                                                <br><b>Waiting for Delivery</b>
+                                            </label>
                                             <button class="col-md-2 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
                                                 Download
                                             </button>
                                             <button class="col-md-2 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
                                                 Detail
                                             </button>
-                                            <button class="col-md-2 btn btn-warning btn-fill" type="submit">
-                                                Confirm
+                                            <button class="col-md-2 btn btn-danger btn-fill" type="submit">
+                                                Complaint
                                             </button>
                                         </div>
                                     <!-- <div class="vl" style="border-left: 6px solid green; height: 10px"></div> -->
@@ -133,24 +136,53 @@
                                     <hr class="between" style="border: 3px solid #f4f3ef;">
                                     <div class="col-md-12" style="margin-bottom: 10px;">
                                         <div class="col-md-3">
-                                            <label><b>Project</b>: Penggorengan Panas</label>
+                                            <label><b>Project</b>: Kapur Bagus</label>
                                         </div>
                                         <div class="col-md-9">
                                             <label class="col-md-12"><b>5dfs52d672</b></label>
-                                            <label class="col-md-12"><b>Date</b>: 9 Jul 2017 | <b>Total</b>: 20 Item</label>
+                                            <label class="col-md-12"><b>Date</b>: 5 Mar 2017 | <b>Total</b>: 6 Item</label>
+                                            <label class="col-md-12 well">20 Mar 2017, 12.50 <b>PO Confirmed</b>
+                                                <br><b>Waiting for Delivery</b>
+                                            </label>
                                             <button class="col-md-2 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
                                                 Download
                                             </button>
                                             <button class="col-md-2 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
                                                 Detail
                                             </button>
-                                            <button class="col-md-2 btn btn-warning btn-fill" type="submit">
-                                                Confirm
+                                            <button class="col-md-2 btn btn-danger btn-fill" type="submit">
+                                                Complaint
                                             </button>
                                         </div>
                                     <!-- <div class="vl" style="border-left: 6px solid green; height: 10px"></div> -->
                                     </div>
                                 </div>
+                                <!-- <table class="table table-striped">
+                                    <thead>
+                                        <th>Date</th>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Download PO</th>
+                                        <th>Detail</th>
+                                        <th>Complaint</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>14 Feb 2018</td>
+                                            <td>98fd03rj3</td>
+                                            <td>Kursi Guru</td>
+                                            <td>
+                                                <button type="submit" class="btn btn-info btn-fill">Download</button>
+                                            </td>
+                                            <td>
+                                                <button type="submit" class="btn btn-info btn-fill">Detail</button>
+                                            </td>
+                                            <td>
+                                                <button type="submit" class="btn btn-info btn-fill">Complaint</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
 
                             </div>
                         </div>
