@@ -110,45 +110,55 @@
                             </div>
                             <div class="content">
                                 <div class="row">
-                                    <hr class="between" style="border: 3px solid #f4f3ef;">
+                                    <hr class="between col-md-12 col-xs-12" style="border: 3px solid #f4f3ef;">
                                     <div class="col-md-12" style="margin-bottom: 10px;">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-xs-3">
                                             <label><b>Project</b>: Papan Tulis</label>
                                         </div>
-                                        <div class="col-md-9">
-                                            <label class="col-md-12"><b>8udvxsdf8w9</b></label>
-                                            <label class="col-md-12"><b>Date</b>: 30 Apr 2017 | <b>Total</b>: 40 Item</label>
-                                            <button class="col-md-2 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
-                                                Download
-                                            </button>
-                                            <button class="col-md-2 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
-                                                Detail
-                                            </button>
-                                            <button class="col-md-2 btn btn-warning btn-fill" type="submit">
-                                                Confirm
-                                            </button>
+                                        <div class="col-md-9 col-xs-9">
+                                            <div class="col-md-12">
+                                                <label><b>8udvxsdf8w9</b></label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label><b>Date</b>: 30 Apr 2017 | <b>Total</b>: 40 Item</label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button class="col-md-3 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
+                                                    Download
+                                                </button>
+                                                <button class="col-md-3 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
+                                                    Detail
+                                                </button>
+                                                <button class="col-md-3 btn btn-warning btn-fill" type="submit">
+                                                    Confirm
+                                                </button>
+                                            </div>
                                         </div>
-                                    <!-- <div class="vl" style="border-left: 6px solid green; height: 10px"></div> -->
                                     </div>
-                                    <hr class="between" style="border: 3px solid #f4f3ef;">
+                                    <hr class="col-md-12 col-xs-12 between" style="border: 3px solid #f4f3ef;">
                                     <div class="col-md-12" style="margin-bottom: 10px;">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-xs-3">
                                             <label><b>Project</b>: Penggorengan Panas</label>
                                         </div>
-                                        <div class="col-md-9">
-                                            <label class="col-md-12"><b>5dfs52d672</b></label>
-                                            <label class="col-md-12"><b>Date</b>: 9 Jul 2017 | <b>Total</b>: 20 Item</label>
-                                            <button class="col-md-2 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
-                                                Download
-                                            </button>
-                                            <button class="col-md-2 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
-                                                Detail
-                                            </button>
-                                            <button class="col-md-2 btn btn-warning btn-fill" type="submit">
-                                                Confirm
-                                            </button>
+                                        <div class="col-md-9 col-xs-9">
+                                            <div class="col-md-12">
+                                                <label><b>98e09f8w0r3</b></label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label><b>Date</b>: 13 Jul 2017 | <b>Total</b>: 8 Item</label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button class="col-md-3 btn btn-info btn-fill" type="submit" style="margin-right: 10px;">
+                                                    Download
+                                                </button>
+                                                <button class="col-md-3 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
+                                                    Detail
+                                                </button>
+                                                <button class="col-md-3 btn btn-warning btn-fill" type="submit">
+                                                    Confirm
+                                                </button>
+                                            </div>
                                         </div>
-                                    <!-- <div class="vl" style="border-left: 6px solid green; height: 10px"></div> -->
                                     </div>
                                 </div>
 
