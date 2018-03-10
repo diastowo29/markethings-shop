@@ -314,6 +314,7 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
+                                        <div></div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>PIC</label>
@@ -385,6 +386,7 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
+                                        <div></div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>PIC</label>
@@ -444,6 +446,7 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
+                                        <div></div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Reason of Cancel</label>

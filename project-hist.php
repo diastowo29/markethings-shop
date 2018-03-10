@@ -239,6 +239,7 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
+                                        <div></div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Title</label>
