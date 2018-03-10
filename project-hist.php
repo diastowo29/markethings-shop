@@ -136,7 +136,7 @@
                                                 <button class="col-md-3 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
                                                     Detail
                                                 </button>
-                                                <button class="col-md-3 btn btn-danger btn-fill" type="submit">
+                                                <button class="col-md-3 btn btn-danger btn-fill" data-toggle="modal" data-target="#complaintModal" type="submit">
                                                     Complaint
                                                 </button>
                                             </div>
@@ -168,7 +168,7 @@
                                                 <button class="col-md-3 btn btn-select btn-fill" type="submit" style="margin-right: 10px;">
                                                     Detail
                                                 </button>
-                                                <button class="col-md-3 btn btn-danger btn-fill" type="submit">
+                                                <button class="col-md-3 btn btn-danger btn-fill" data-toggle="modal" data-target="#complaintModal" type="submit">
                                                     Complaint
                                                 </button>
                                             </div>
@@ -213,6 +213,71 @@
         </footer>
 
 
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="complaintModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Tell us why</h4>
+        </div>
+        <div class="modal-body">
+          <!-- <p>Some text in the modal.</p> -->
+          <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <!-- <h4 class="title">Project Details</h4> -->
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Title</label>
+                                                <input type="text" class="form-control border-input" placeholder="Title" value="Something Awesome">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Category</label>
+                                                <input type="text" class="form-control border-input" placeholder="Category" value="Wow">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Description</label>
+                                                <textarea class="form-control border-input" rows="5" placeholder="Your complaint detail" value="Pico Septa"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-info btn-fill btn-wd">Submit</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
 </div>
 
