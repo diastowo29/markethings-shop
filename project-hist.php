@@ -217,6 +217,74 @@
 </div>
 
 <!-- Modal -->
+<div class="modal fade" id="detailModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detail PO</h4>
+        </div>
+        <div class="modal-body">
+          <!-- <p>Some text in the modal.</p> -->
+          <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <!-- <h4 class="title">Project Details</h4> -->
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div></div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>PIC</label>
+                                                <input type="text" class="form-control border-input" placeholder="PIC Name" value="Pico Septa">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Phone Number</label>
+                                                <input type="text" class="form-control border-input" placeholder="Phone Number" value="081283947228">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input type="text" class="form-control border-input" placeholder="Email Address" value="diastowo@gmail.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>Term of Delivery</label>
+                                                <input type="text" class="form-control border-input" placeholder="Term of delivery" value="Something awesome">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<!-- Modal -->
 <div class="modal fade" id="complaintModal" role="dialog">
     <div class="modal-dialog">
 

@@ -101,7 +101,22 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="card card-user">
+                            <!-- <div class="image">
+                                <img src="assets/img/background.jpg" alt="..."/>
+                            </div> -->
+                            <div class="content">
+                                <div class="author">
+                                  <input type="image" class="avatar border-white" src="assets/img/add_image.png" alt="..."/>
+                                  <h4 class="title">Upload Sample Photo</h4>
+                                </div>
+                                <input type="file" id="my_file" style="display: none;" />
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Project Details</h4>
@@ -253,5 +268,27 @@
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
 
+    <script type="text/javascript">
+        $("input[type='image']").click(function() {
+            $("input[id='my_file']").click();
+        });
+
+        $("#my_file").change(function(){
+            readPath(this);
+        });
+
+        function readPath(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('.avatar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
 
 </html>

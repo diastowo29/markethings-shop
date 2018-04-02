@@ -1585,8 +1585,7 @@ textarea.form-control {
   margin-top: 110px; }
 .card-user .author {
   text-align: center;
-  text-transform: none;
-  margin-top: -65px; }
+  text-transform: none; }
   .card-user .author .title {
     color: #403D39; }
     .card-user .author .title small {
